@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__container{
+    max-width: 1910px;
+    background: linear-gradient(rgb(121,121,216),rgb(8,8,64));
+    margin: 30px 20px 0 200px;
+    border-radius: 52px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{                                
+    display: flex;
+    padding: 10;
+    margin-left: 30px;
+}
+.menu__items{
+    display: flex;
+}
+.menu__item{
+    list-style: none;
+    margin-right: 40px;
+}
+.menu_link{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}  
